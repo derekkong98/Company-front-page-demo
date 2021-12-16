@@ -1,0 +1,374 @@
+body {
+    font-family: 'Inter', sans-serif !important;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.navbar-brand {
+    font-size: 18px;
+}
+
+.navbar-brand img {
+    height: 25px;
+}
+
+.navbar-right {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar-right img {
+    height: 25px;
+}
+
+.navbar-toggle {
+    color: black;
+    margin-right: -1em;
+}
+
+.icon-bar {
+    background-color: #000080;
+}
+.accordion-body img {
+    width: 75px !important;
+    height: 125px !important;
+}
+
+.accordion-button {
+    background-color: #777 !important;
+    color: white !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 90% !important
+}
+
+.clear {
+    clear: both;
+}
+
+.Calculate h2 {
+    font-size: 18px;
+}
+
+.Calculate p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.Delivery {
+    background-color: #3A8949;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+.Delivery img {
+    height: 70px;
+}
+
+.Delivery h1 {
+    font-size: 35px;
+    font-weight: 800
+}
+
+.Delivery p1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 1em;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.form-control {
+    border: 2px solid #61668E;
+    border-radius: 5px;
+    background-color: #272A3F;
+    padding: 3px;
+    max-width: none;
+    color: white;
+    resize: none;
+}
+
+.form-group {
+    font-size: 12px;
+}
+
+.Hero {
+    background-image: url('./images/Copier(3).jpg');
+    background-size: cover;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.Hero p {
+    color: white;
+}
+
+.Hero h2 {
+    color: white;
+}
+
+.icon-bar {
+    background-color: #000080;
+}
+
+.jumbotron {
+    background-color: transparent;
+    height: auto;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.jumbotron p {
+    font-size: 15px;
+}
+
+.jumbotron-email {
+    color: inherit;
+    background-color: #393C59;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.jumbotron-email img {
+    filter: invert(100%) sepia(3%) saturate(833%) hue-rotate(269deg) brightness(118%) contrast(100%);
+}
+
+.jumbotron-email h2 {
+    font-size: 36px;
+}
+
+.jumbotron-map {
+    color: black;
+    background-color: white;
+    margin-bottom: 2em;
+}
+
+.jumbotron-footer {
+    color: black;
+    background-color: white;
+}
+
+.map {
+    overflow: hidden;
+    padding: 0;
+}
+
+.map img {
+    padding: 0;
+    height: 250px;
+    float: left;
+}
+
+.lead {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 20px !important;
+    color: white;
+}
+
+.rightColumn {
+    margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.rightColumn img {
+    height: 75px;
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Services {
+    height: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.Services h2 {
+    font-size: 20px;
+}
+
+.Services p {
+    font-size: 12px;
+}
+
+.Services img {
+    height: auto;
+    width: 60%;
+}
+
+.typeservice {
+    border: 2px solid #61668E;
+    border-radius: 5px;
+    background-color: #272A3F;
+    padding: 3px;
+    max-width: none;
+    width: 100%;
+    color: white;
+}
+
+.postoptions {
+    border: 2px solid #77BF83;
+    border-radius: 5px;
+    background-color: #2F6B38;
+    padding: 3px;
+    max-width: none;
+    width: auto;
+    color: white;
+    width: 100%;
+}
+
+.Order {
+    background-color: #5FB76E;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    height: 35px;
+    width: 100%;
+}
+
+.Order:hover {
+    background-color: #81D38D;
+}
+
+.Order:disabled {
+    background-color: grey;
+}
+
+.Send {
+    background-color: #7177A5;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    height: 35px;
+    width: 100%;
+}
+
+.Send:hover {
+    background-color: #a4aada;
+}
+
+@media screen and (max-width:1200px) {
+    .navbar-right {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .navbar-right img {
+        height: 12px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .navbar-collapse {
+        margin-bottom: 1em;
+    }
+
+    .navbar-brand {
+        font-size: 12px;
+        height: 10px;
+    }
+
+    .navbar-brand img {
+        height: 15px;
+    }
+
+    .navbar-nav {
+        font-size: 10px;
+    }
+
+    .navbar-nav a {
+        padding: 10px !important;
+        padding-top: 15px !important;
+    }
+
+    .contact-parent {
+        display: block;
+        width: 100%;
+    }
+
+    .jumbotron {
+        padding-bottom: 0;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .lead {
+        font-size: 20px;
+    }
+
+    .Services h2 {
+        font-size: 15px;
+    }
+
+    .Services p {
+        font-size: 12px;
+    }
+
+    .Services img {
+        height: auto;
+        width: auto;
+    }
+
+    .Delivery img {
+        height: 35px;
+    }
+
+    .Delivery h1 {
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 0;
+    }
+
+    .Delivery p1 {
+        font-size: 12px;
+    }
+
+    .jumbotron-email h2 {
+        font-size: 20px;
+    }
+
+    .map img {
+        float: right;
+    }
+
+    .rightColumn p {
+        font-size: 12px;
+    }
+
+    .rightColumn img {
+        height: 65px;
+        width: 65px;
+    }
+
+    .map img {
+        padding-bottom: 10px;
+    }
+}
